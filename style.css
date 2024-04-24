@@ -1,0 +1,64 @@
+body{
+    background-image: url("../projector.jpeg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+a {color:#f8f8f8;}         
+a:visited {color:#f9f9f9;} 
+a:hover {color:#ffea30;}   
+
+.lien{
+    display: flex;
+    justify-content: space-evenly;
+}
+a:link{
+    text-decoration: none;
+    font-size: 40px;
+}
+h1{
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+form{
+    text-align: center;
+}
+option{
+    text-align: center;
+}
+
+.resultat{
+    text-align: center;
+    background-color: whitesmoke;
+    opacity: 70%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+.secondlien{
+    display:flex;
+    justify-content: space-evenly;
+}
+#prime{
+    color: white;
+}
+
+.btn{
+    margin: 5px;
+    background-color: green;
+}
+
+button {
+    background-color: #ffea30;
+}
+
+#delete {
+    background-color: red;
+    opacity: 100%;
+}
